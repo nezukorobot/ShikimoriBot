@@ -28,7 +28,7 @@ import threading
 
 from sqlalchemy import func, distinct, Column, String, UnicodeText, Integer
 
-from Shikimori.modules.sql_2 import SESSION, BASE
+from Shikimori.modules.sql import SESSION, BASE
 
 
 class BlackListFilters(BASE):
